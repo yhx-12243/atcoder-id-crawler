@@ -1,0 +1,3 @@
+[submodule "deflate"]
+	path = deflate
+	url = https://github.com/dankogai/js-deflate
