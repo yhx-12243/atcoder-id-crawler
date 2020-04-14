@@ -10,7 +10,7 @@
 
 于是就写了这么一个小脚本用来爬 AtCoder 的题号，目前是在 vjudge 上爬取。
 
-这个脚本目前也是更新 [OI-transit](/yhx-12243/OI-transit) 中 AtCoder 题目跳转链接的来源。
+这个脚本目前也是更新 [OI-transit](https://github.com/yhx-12243/OI-transit) 中 AtCoder 题目跳转链接的来源。
 
 ## 需求
 
@@ -20,7 +20,7 @@
 
 ## 用法
 
-一键使用：`./atcoder.sh <num>`，其中 num 表示一次的爬取量，不宜太大也不宜太小。
+一键使用：`./atcoder.sh <num>`，其中 num 表示一次的爬取量，不宜太大也不宜太小，取 50 ~ 100 左右为宜。
 
 爬取题目列表但不爬取跳转链接：`./atcoder.list.py`
 
@@ -34,6 +34,6 @@
 
 ## 解码脚本
 
-具体参见 [OI-transit 中的 basic.js](/yhx-12243/OI-transit/blob/master/additional_files/js/basic.js)，列举代码如下：
+具体参见 [OI-transit 中的 basic.js](https://github.com/yhx-12243/OI-transit/blob/master/additional_files/js/basic.js)，列举代码如下：
 
-> /yhx-12243/OI-transit/blob/45834e3a4777988418a5a9dfc793c91ddacf6201/additional_files/js/basic.js#L258-L266
+> https://github.com/yhx-12243/OI-transit/blob/45834e3a4777988418a5a9dfc793c91ddacf6201/additional_files/js/basic.js#L258-L266
