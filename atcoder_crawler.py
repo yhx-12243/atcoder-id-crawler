@@ -43,6 +43,8 @@ while True:
 	fetched = count = 0
 
 	for u, v in ac.items():
+		if not u.isdigit():
+			continue
 		u = int(u)
 		if u not in result_dict:
 			print('Attempt {} (vjudge id = {}) : Accessing ...'.format(u, v), file = sys.stderr)
